@@ -14,8 +14,8 @@ import Arduino from "../imgs/ArduinoNano.png"
 
 export function Componentes() {
   return (
-    <CompContainer>
-        <h1>Nossa lista de produtos e ferramentas que utilizamos nesse projeto, se dá em uma lista altamente variada com peças cruciais para sua montagem, sendo elas:</h1>
+   <CompContainer>
+        <h1>Lista de Materias</h1>
         <ul>
         <SectionContainer >
             <img src={SensorGas} alt="" />

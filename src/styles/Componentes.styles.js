@@ -21,15 +21,16 @@ export const SectionContainer = styled.section`
         margin: 1rem;
     }
 
+
 `
 
 export const CompContainer = styled.div`
 
-margin: 2rem;
+text-align: center;
 
 h1 {
-    margin-inline: 4rem;
     margin-block: 5rem;
-    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 40px;
     }
 `

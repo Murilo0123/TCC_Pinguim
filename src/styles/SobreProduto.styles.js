@@ -5,6 +5,7 @@ export const ProdutoComponent = styled.div`
     align-items: center;
     justify-content: center;
     gap: 5rem;
+    margin-top: 2rem;
 
     p {
         max-width: 50rem;
