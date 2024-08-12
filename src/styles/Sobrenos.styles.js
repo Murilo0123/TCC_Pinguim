@@ -16,11 +16,17 @@ export const ParticipantesContainer = styled.div`
     flex-direction: column;
     align-items: center;
     max-width: 318px;
+    box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.30);
 
     img.integrantes {
         width: 213.69px;
         height: 200px;
         margin: 2rem;
+    }
+    
+    img.semFundo {
+        width: 55px;
+        height: 55px;
     }
 
     h2 {
@@ -40,4 +46,8 @@ export const EquipeContainer = styled.div`
     text-transform: uppercase;
     margin-top: 2rem;
     text-align: center;
+
+    h1 {
+        font-size: 64px;
+    }
 `

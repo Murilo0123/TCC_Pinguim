@@ -1,4 +1,4 @@
-import { SectionContainer } from "../styles/Componentes.styles"
+import { SectionContainer, CompContainer } from "../styles/Componentes.styles"
 import SensorGas from "../imgs/SensorDeGas.png"
 import Ultra from "../imgs/SensorUltrassonico.png"
 import Fio from "../imgs/Fio.png"
@@ -14,57 +14,59 @@ import Arduino from "../imgs/ArduinoNano.png"
 
 export function Componentes() {
   return (
-    <div>
+    <CompContainer>
         <h1>Nossa lista de produtos e ferramentas que utilizamos nesse projeto, se dá em uma lista altamente variada com peças cruciais para sua montagem, sendo elas:</h1>
+        <ul>
         <SectionContainer >
             <img src={SensorGas} alt="" />
-            <p>Sensor de Gás MQ-5 GLP (Gás de Cozinha) e Gás Natural;</p>
+            <li>Sensor de Gás MQ-5 GLP (Gás de Cozinha) e Gás Natural;</li>
         </SectionContainer>
         <SectionContainer >
             <img src={Fio} alt="" />
-            <p>Jumper wires (genérico);</p>
+            <li>Jumper wires (genérico);</li>
         </SectionContainer>
         <SectionContainer >
             <img src={Buzzer} alt="" />
-            <p>Buzzer;</p>
+            <li>Buzzer;</li>
         </SectionContainer>
         <SectionContainer >
             <img src={Ultra} alt="" />
-            <p>Sensor Ultrassonico  - HC-SR04 (Genérico);</p>
+            <li>Sensor Ultrassonico  - HC-SR04 (Genérico);</li>
         </SectionContainer>
         <SectionContainer >
             <img src={RTC} alt="" />
-            <p>DS3231 RTC Module - Real Time Clock e sensor de Temperatura;</p>
+            <li>DS3231 RTC Module - Real Time Clock e sensor de Temperatura;</li>
         </SectionContainer>
         <SectionContainer >
             <img src={Camera} alt="" />
-            <p>Omnivision OV7670 CMOS I2C VGA Camera Module;</p>
+            <li>Omnivision OV7670 CMOS I2C VGA Camera Module;</li>
         </SectionContainer>
         <SectionContainer >
             <img src={Wifi} alt="" />
-            <p>Módulo WiFi Serial ESP8266 ESP-01;</p>
+            <li>Módulo WiFi Serial ESP8266 ESP-01;</li>
         </SectionContainer>
         <SectionContainer >
             <img src={Board} alt="" />
-            <p>Mini Protoboard;</p>
+            <li>Mini Protoboard;</li>
         </SectionContainer>
         <SectionContainer >
             <img src={Oled} alt="" />
-            <p>OLED Screen 128x64 i2c;</p>
+            <li>OLED Screen 128x64 i2c;</li>
         </SectionContainer>
         <SectionContainer >
             <img src={Cano} alt="" />
-            <p>Cano PVC;</p>
+            <li>Cano PVC;</li>
         </SectionContainer>
         <SectionContainer >
             <img src={Servo} alt="" />
-            <p>SG90 Micro-servo motor;</p>
+            <li>SG90 Micro-servo motor;</li>
         </SectionContainer>
         <SectionContainer >
             <img src={Arduino} alt="" />
-            <p>Arduino Nano R3;</p>
+            <li>Arduino Nano R3.</li>
         </SectionContainer>
-    </div>
+        </ul>
+    </CompContainer>
     
   )
 }

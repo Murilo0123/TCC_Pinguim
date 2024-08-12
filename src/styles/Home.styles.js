@@ -7,6 +7,12 @@ export const HomeContainer = styled.div`
     justify-content: center;
     gap: 1rem;
 
+    img {
+        height: 67.86px;
+        width: 120;
+        margin-block: 1rem;
+    }
+
     h1 {
         color: ${props => props.theme.laranjaTitulo};
     }

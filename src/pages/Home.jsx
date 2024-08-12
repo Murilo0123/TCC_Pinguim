@@ -1,4 +1,3 @@
-import { createBrowserRouter } from "react-router-dom"
 import logo from "../assets/logo.png"
 import { HomeContainer } from "../styles/Home.styles"
 

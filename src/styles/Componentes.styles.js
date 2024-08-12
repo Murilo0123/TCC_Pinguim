@@ -10,4 +10,26 @@ export const SectionContainer = styled.section`
     gap: 2rem;
     font-size: 1rem;
 
+    li {
+        font-size: 30px;
+        margin-left: 8rem;
+    }
+
+    img {
+        width: 332px;
+        height: 295px;
+        margin: 1rem;
+    }
+
+`
+
+export const CompContainer = styled.div`
+
+margin: 2rem;
+
+h1 {
+    margin-inline: 4rem;
+    margin-block: 5rem;
+    font-weight: 700;
+    }
 `

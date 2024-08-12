@@ -9,11 +9,12 @@ export const ProdutoComponent = styled.div`
     p {
         max-width: 50rem;
         margin-top: 1rem;
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
 
-    h2 {
-        font-size: 900;
-        
+    h1 {
+        font-weight: bolder;  
+        font-size: 40px; 
+        margin-bottom : 2rem;
     }
 `
