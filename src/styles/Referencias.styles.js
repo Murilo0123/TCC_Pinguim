@@ -12,6 +12,8 @@ export const ReferenciasContainer = styled.div`
         color: ${props => props.theme.laranjaAncora};
         margin-inline: 2rem;
         font-size: 30px;
+        height: 684px;
+        margin-bottom: 4rem;
     }
 
     h2 {

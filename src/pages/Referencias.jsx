@@ -14,7 +14,7 @@ export function Referencias() {
 
           Pessoas com idade mais avançadas necessitam de cuidados e monitoramentos; <br /><br />
 
-          No ano de 2006 foi notado o aumento da população com mais de 60 anos morando sozinhos em cerca de 40,3% dos domicílios unipessoais brasileiros;</p><br />
+          No ano de 2006 foi notado o aumento da população com mais de 60 anos morando sozinhos em cerca de 40,3% dos domicílios unipessoais brasileiros;</p>
           <a href="">Saiba mais</a>
         </ReferenciasContainer>
         <ReferenciasContainer className="Segundo">
@@ -36,7 +36,7 @@ export function Referencias() {
             <li>Divorciados(as);</li>
           </ul>
 
-          </p><br />
+          </p>
           <a href="">Saiba mais</a>
         </ReferenciasContainer>
       </DivContainer>
