@@ -15,8 +15,7 @@ import Arduino from "../imgs/ArduinoNano.png"
 export function Componentes() {
   return (
    <CompContainer>
-        <h1>Lista de Materias</h1>
-        <ul>
+        <h1>Lista de Materias</h1> 
         <SectionContainer >
             <img src={SensorGas} alt="" />
             <li>Sensor de Gás MQ-5 GLP (Gás de Cozinha) e Gás Natural;</li>
@@ -65,8 +64,6 @@ export function Componentes() {
             <img src={Arduino} alt="" />
             <li>Arduino Nano R3.</li>
         </SectionContainer>
-        </ul>
     </CompContainer>
-    
   )
 }

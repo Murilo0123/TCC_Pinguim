@@ -5,7 +5,7 @@ export function Home() {
   return (
     <HomeContainer>
       <img src= {logo} alt="logo" />
-        <a href="/"><h1>Pinguim Vigilante</h1></a>
+        <a href="/" className="titulo"><h1>Pinguim Vigilante</h1></a>
         <a href="/funcionamento">Funcionamento</a>
         <a href="/componentes">Materiais</a>
         <a href="/referencias">Referências</a>

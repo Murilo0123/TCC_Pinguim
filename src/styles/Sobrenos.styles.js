@@ -15,12 +15,13 @@ export const ParticipantesContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 318px;
     box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.30);
+    width: 428px;
+    margin-bottom: 5rem;
 
     img.integrantes {
-        width: 213.69px;
-        height: 200px;
+        width: 271px;
+        height: 263px;
         margin: 2rem;
     }
     
@@ -32,12 +33,19 @@ export const ParticipantesContainer = styled.div`
     h2 {
         color: ${props => props.theme.laranjaTitulo};
         margin-bottom: 1rem;
+        font-size: 40px;
     }
 
     p {
         color: ${props => props.theme.laranjaAncora};
-        max-width: 75%;
+        width: 264px;
+        height: 100px;
         margin-bottom: 1rem;
+        font-size: 30px;
+    }
+
+    div {
+        margin-top: 3rem;
     }
 `
 

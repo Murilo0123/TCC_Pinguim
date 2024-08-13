@@ -5,7 +5,7 @@ export const SectionContainer = styled.section`
     align-items: center;
     background: ${props => props.theme.caixas};
     border-radius: 2rem;
-    margin-inline: 1rem;
+    margin-inline: 2rem;
     margin-block: 2rem;
     gap: 2rem;
     font-size: 1rem;
@@ -26,11 +26,11 @@ export const SectionContainer = styled.section`
 
 export const CompContainer = styled.div`
 
-text-align: center;
-
-h1 {
-    margin-block: 5rem;
-    text-transform: uppercase;
-    font-size: 40px;
+    h1 {
+        margin-block: 5rem;
+        text-transform: uppercase;
+        font-size: 40px;
+        text-align: center;
     }
+
 `

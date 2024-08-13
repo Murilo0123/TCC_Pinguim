@@ -5,7 +5,7 @@ export const HomeContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 3rem;
 
     img {
         height: 67.86px;
@@ -21,5 +21,9 @@ export const HomeContainer = styled.div`
         color: ${props => props.theme.laranjaAncora};
         margin-left: 2rem;
         text-decoration: none;
+    }
+
+    .titulo {
+        margin-left: -2rem;
     }
 `
