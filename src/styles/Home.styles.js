@@ -63,8 +63,3 @@ export const HomeContainer = styled.div`
         }
   }
 `
-export function burger(verificar){
-    if (verificar == 0) {
-
-    }
-}
