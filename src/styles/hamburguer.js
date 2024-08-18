@@ -28,13 +28,18 @@ export const BgContainer = styled.div`
 export const PosicaoContainer = styled.div`
 
     display: none;
-    opacity: 0;
+    .bm-burger-button {
+        position: fixed;
+        width: 36px;
+        height: 30px;
+        left: 36px;
+        top: 36px;
+    }
 
     @media (max-width: 1140px) {
         display: flex;
-        justify-content: right;
         opacity: 1;
-
+        padding-left: 9.5rem;
 
         
     }

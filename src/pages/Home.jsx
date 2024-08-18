@@ -2,6 +2,7 @@ import logo from "../assets/logo.png"
 import hamburger from "../assets/hamburger.png"
 import { HomeContainer } from "../styles/Home.styles"
 
+
 export function Home() {
 
   return (
