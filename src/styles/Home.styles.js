@@ -7,7 +7,7 @@ export const HomeContainer = styled.div`
     justify-content: center;
     gap: 3rem;
     width: 100%;
-    max-height:160px;
+    height:75px;
 
     img {
         height: 67.86px;
@@ -27,7 +27,7 @@ export const HomeContainer = styled.div`
     }
 
     button {
-        opacity:0;
+        display:none;
     }
 
     .titulo {
@@ -40,7 +40,7 @@ export const HomeContainer = styled.div`
         height:75px;
         
         .titulo h1 {
-            font-size: 1.25rem;
+            font-size: 1.40rem;
         }
         > .ancora {
             display:none;
@@ -51,7 +51,7 @@ export const HomeContainer = styled.div`
             margin-left:1rem;
         }  
         button {
-            opacity:100;
+            display:block;
             background:none;
             border:none
         }
@@ -61,7 +61,10 @@ export const HomeContainer = styled.div`
             height:29px;
             margin-top:0.75rem;
         }
-        
-    
   }
 `
+export function burger(verificar){
+    if (verificar == 0) {
+
+    }
+}
