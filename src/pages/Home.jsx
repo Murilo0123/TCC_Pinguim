@@ -2,7 +2,8 @@ import logo from "../assets/logo.png"
 import hamburger from "../assets/hamburger.png"
 import { HomeContainer } from "../styles/Home.styles"
 
-export function Home({setMenuVerificar}) {
+export function Home() {
+
   return (
     <HomeContainer>
       <img src= {logo} alt="logo" />
@@ -11,7 +12,7 @@ export function Home({setMenuVerificar}) {
       <a href="/componentes" className="ancora">Materiais</a>
       <a href="/referencias" className="ancora">Referências</a>
       <a href="/sobrenos" className="ancora">Sobre nós</a>
-      <button onClick={()=> setMenuVerificar(false)}><img src={hamburger} alt="" /></button>
+      <button><img src={hamburger} alt="" /></button>
     </HomeContainer>
   )
 }

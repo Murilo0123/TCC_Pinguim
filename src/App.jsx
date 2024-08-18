@@ -41,15 +41,12 @@ const router = createBrowserRouter([
 ]);
 
 export default function App() {
-  const [menuVerificar, setMenuVerificar] = useState(false)
 
   return (
     <ThemeProvider theme={theme}>
       
       <Home />
-      <MenuHamburger
-      menuVerificar={menuVerificar}  
-      setMenuVerificar={setMenuVerificar}/>
+      <MenuHamburger/>
       <RouterProvider router={router} />
       <Globalstyle />
     </ThemeProvider>

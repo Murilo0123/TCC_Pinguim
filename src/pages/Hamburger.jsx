@@ -2,10 +2,10 @@ import React from 'react'
 import { BgContainer, PosicaoContainer } from '../styles/hamburguer'
 
 
-export function MenuHamburger({menuVerificar, steMenuVerificar}) {
+export function MenuHamburger() {
   return (
     <PosicaoContainer>
-      <BgContainer Visibilidade={menuVerificar}>
+      <BgContainer>
         <a href="/funcionamento" className="ancora">Funcionamento</a>
         <a href="/componentes" className="ancora">Materiais</a>
         <a href="/referencias" className="ancora">Referências</a>
