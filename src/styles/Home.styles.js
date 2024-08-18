@@ -26,6 +26,8 @@ export const HomeContainer = styled.div`
         text-decoration: none;
     }
 
+    
+
     button {
         display:none;
     }

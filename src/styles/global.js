@@ -29,4 +29,22 @@ export const Globalstyle = createGlobalStyle`
         font-weight: 400;
     }
 
+    button#react-burger-menu-btn{
+        position: static;
+    }
+
+    .bm-burger-button {
+      pointer-events: none;
+      
+
+        @media (max-width: 1140px) {
+            pointer-events: auto;
+            position: fixed;
+            width: 36px;
+            height: 30px;
+            left: 330px;
+            top: 25px;
+
+        }
+    }
 `
