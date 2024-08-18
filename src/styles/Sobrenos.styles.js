@@ -9,6 +9,7 @@ export const SepararContainer = styled.div`
     
     @media (max-width: 1140px) {
         display:block;
+        text-align: center;
     }
 `
 
@@ -29,10 +30,6 @@ export const ParticipantesContainer = styled.div`
         margin: 2rem;
     }
     
-    img.semFundo {
-        width: 55px;
-        height: 55px;
-    }
 
     h2 {
         color: ${props => props.theme.laranjaTitulo};
@@ -51,6 +48,32 @@ export const ParticipantesContainer = styled.div`
     div {
         margin-top: 3rem;
     }
+
+    @media (max-width: 1140px){
+        width: 300px;
+        height: 430px;
+
+        img.integrantes{
+            width: 197px;
+            height: 189px;
+        }
+        h2{
+            font-size:20px;
+        }
+        p{
+            font-size: 16px;
+        }
+        img{
+            width: 40px;
+            height: 40px;
+           
+        }
+        div{
+            margin-top: 0;
+        }
+        
+        
+    }
 `
 
 export const EquipeContainer = styled.div`
@@ -61,5 +84,10 @@ export const EquipeContainer = styled.div`
 
     h1 {
         font-size: 64px;
+    }
+    @media (max-width: 1140px){
+        h1{
+            font-size: 40px;
+        }
     }
 `

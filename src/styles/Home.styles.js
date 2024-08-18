@@ -53,13 +53,15 @@ export const HomeContainer = styled.div`
         button {
             display:block;
             background:none;
-            border:none
+            border:none;
+           
         }
         button img {
             margin-left:2rem;
             width: 29px;
             height:29px;
             margin-top:0.75rem;
+            
         }
   }
 `

@@ -39,6 +39,30 @@ export const ReferenciasContainer = styled.div`
         margin-left: 5rem;
     }    
 
+    @media (max-width: 1140px){
+        margin-left: 4rem;
+        width: 320px;
+        height: 812px;
+        
+        li{
+            margin-left: 3rem;
+        }
+        h2{
+            font-size: 30px;
+        }
+        p{
+            font-size: 18px;
+            height: 480px;
+            margin-bottom: -10px;
+            
+        }
+        a{
+            font-size: 20px;
+        }
+        img{
+            height: 13rem;   
+        }
+    }
 `
 
 export const DivContainer = styled.div`
@@ -46,6 +70,13 @@ export const DivContainer = styled.div`
     display: flex;
     justify-content: center;
     gap: 3rem;
+
+    @media (max-width: 1140px){
+
+        display: block;
+        padding-bottom:2rem;
+        
+}
     
 `
 
@@ -57,5 +88,15 @@ export const PrincipalContainer = styled.div`
         text-transform: uppercase;
         font-weight: bolder;
         font-size: 64px;
+        
     }
+    @media (max-width: 1140px){
+
+        h1{
+            font-size: 40px;
+        }
+    
+    }
+
+    
 `
