@@ -6,6 +6,10 @@ export const SepararContainer = styled.div`
     gap: 2rem;
     justify-content: center;
     margin: 2rem;
+    
+    @media (max-width: 1140px) {
+        display:block;
+    }
 `
 
 export const ParticipantesContainer = styled.div`

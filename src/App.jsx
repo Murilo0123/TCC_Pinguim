@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
+import { useState } from "react";
 
 import { Home } from './pages/Home'
 import { theme } from './styles/theme.js'
@@ -9,6 +10,7 @@ import { Funcionamento } from './pages/Funcionamento.jsx'
 import { Componentes } from './pages/Componentes.jsx'
 import { Referencias } from './pages/Referencias.jsx'
 import { SobreNos } from './pages/SobreNos.jsx'
+import { MenuHamburger } from './pages/Hamburger.jsx'
 
 
 const router = createBrowserRouter([
@@ -39,9 +41,15 @@ const router = createBrowserRouter([
 ]);
 
 export default function App() {
+  const [menuVerificar, setMenuVerificar] = useState(false)
+
   return (
     <ThemeProvider theme={theme}>
+      
       <Home />
+      <MenuHamburger
+      menuVerificar={menuVerificar}  
+      setMenuVerificar={setMenuVerificar}/>
       <RouterProvider router={router} />
       <Globalstyle />
     </ThemeProvider>

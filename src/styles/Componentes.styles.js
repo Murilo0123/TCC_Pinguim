@@ -6,9 +6,10 @@ export const SectionContainer = styled.section`
     background: ${props => props.theme.caixas};
     border-radius: 2rem;
     margin-inline: 2rem;
-    margin-block: 2rem;
+    margin-top: 2rem;
     gap: 2rem;
     font-size: 1rem;
+    padding-bottom: 2rem;
 
     li {
         font-size: 30px;

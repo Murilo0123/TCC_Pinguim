@@ -1,15 +1,17 @@
 import logo from "../assets/logo.png"
+import hamburger from "../assets/hamburger.png"
 import { HomeContainer } from "../styles/Home.styles"
 
-export function Home() {
+export function Home({setMenuVerificar}) {
   return (
     <HomeContainer>
       <img src= {logo} alt="logo" />
-        <a href="/" className="titulo"><h1>Pinguim Vigilante</h1></a>
-        <a href="/funcionamento">Funcionamento</a>
-        <a href="/componentes">Materiais</a>
-        <a href="/referencias">Referências</a>
-        <a href="/sobrenos">Sobre nós</a>
+      <a href="/" className="titulo"><h1>Pinguim Vigilante</h1></a>
+      <a href="/funcionamento" className="ancora">Funcionamento</a>
+      <a href="/componentes" className="ancora">Materiais</a>
+      <a href="/referencias" className="ancora">Referências</a>
+      <a href="/sobrenos" className="ancora">Sobre nós</a>
+      <button onClick={()=> setMenuVerificar(false)}><img src={hamburger} alt="" /></button>
     </HomeContainer>
   )
 }
