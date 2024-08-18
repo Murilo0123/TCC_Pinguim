@@ -15,7 +15,7 @@ export const Globalstyle = createGlobalStyle`
     }
 
     h1 {
-        font-family: "Osawald", sans-serif;
+        font-family: "Oswald", sans-serif;
         font-weight: bold;
         font-size: 40px;
     }
@@ -28,4 +28,5 @@ export const Globalstyle = createGlobalStyle`
         font-family: "Radio Canada Big", sans-serif;
         font-weight: 400;
     }
+
 `
