@@ -18,4 +18,24 @@ export const ProdutoComponent = styled.div`
         font-size: 40px; 
         margin-bottom : 2rem;
     }
+
+    @media (max-width: 1140px) {
+        display: block;
+        text-align: center;
+        padding-bottom: 2rem;
+        padding-inline: 2rem;
+
+        img {
+            width: 14.375rem;
+        }
+
+        h1 {
+            font-size:2.5rem;
+        }
+
+        p {
+            font-size:1.25rem
+        }
+    }  
+        
 `
