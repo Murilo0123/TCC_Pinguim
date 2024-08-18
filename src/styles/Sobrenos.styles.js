@@ -10,6 +10,9 @@ export const SepararContainer = styled.div`
     @media (max-width: 1140px) {
         display:block;
         text-align: center;
+        margin: 2.5rem;
+        gap: 1rem;
+        padding-bottom: 2rem;
     }
 `
 
@@ -52,27 +55,30 @@ export const ParticipantesContainer = styled.div`
     @media (max-width: 1140px){
         width: 300px;
         height: 430px;
+        margin-bottom: 3rem;
 
-        img.integrantes{
+        img.integrantes {
             width: 197px;
             height: 189px;
         }
-        h2{
+
+        h2 {
             font-size:20px;
         }
-        p{
+
+        p {
             font-size: 16px;
         }
-        img{
+
+        img {
             width: 40px;
             height: 40px;
            
         }
-        div{
+
+        div {
             margin-top: 0;
-        }
-        
-        
+        } 
     }
 `
 
@@ -86,7 +92,8 @@ export const EquipeContainer = styled.div`
         font-size: 64px;
     }
     @media (max-width: 1140px){
-        h1{
+
+        h1 {
             font-size: 40px;
         }
     }

@@ -40,26 +40,30 @@ export const ReferenciasContainer = styled.div`
     }    
 
     @media (max-width: 1140px){
-        margin-left: 4rem;
+        margin-left: 2rem;
         width: 320px;
         height: 812px;
         
-        li{
+        li {
             margin-left: 3rem;
         }
-        h2{
+
+        h2 {
             font-size: 30px;
         }
-        p{
+
+        p {
             font-size: 18px;
             height: 480px;
             margin-bottom: -10px;
             
         }
-        a{
+
+        a {
             font-size: 20px;
         }
-        img{
+
+        img {
             height: 13rem;   
         }
     }
@@ -76,6 +80,7 @@ export const DivContainer = styled.div`
         display: block;
         padding-bottom:2rem;
         
+        
 }
     
 `
@@ -90,6 +95,7 @@ export const PrincipalContainer = styled.div`
         font-size: 64px;
         
     }
+
     @media (max-width: 1140px){
 
         h1{

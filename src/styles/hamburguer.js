@@ -28,10 +28,14 @@ export const BgContainer = styled.div`
 export const PosicaoContainer = styled.div`
 
     display: none;
+    opacity: 0;
 
     @media (max-width: 1140px) {
         display: flex;
         justify-content: right;
+        opacity: 1;
+
+
         
     }
     
