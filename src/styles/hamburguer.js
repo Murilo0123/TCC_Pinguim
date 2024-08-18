@@ -27,8 +27,13 @@ export const BgContainer = styled.div`
 
 export const PosicaoContainer = styled.div`
 
-    display: flex;
-    justify-content: right;
+    display: none;
+
+    @media (max-width: 1140px) {
+        display: flex;
+        justify-content: right;
+        
+    }
     
 
 `
