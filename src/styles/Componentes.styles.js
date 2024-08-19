@@ -5,16 +5,18 @@ export const SectionContainer = styled.section`
     align-items: center;
     background: ${props => props.theme.caixas};
     border-radius: 2rem;
-    margin-inline: 2rem;
+    margin-inline: auto;
     margin-top: 2rem;
     gap: 2rem;
     font-size: 1rem;
     padding-bottom: 2rem;
+    max-width: 1140px;
     
 
     li {
         font-size: 30px;
-        margin-left: 8rem;
+        margin-left: 3rem;
+        padding-right: 4rem;
     }
 
     img {

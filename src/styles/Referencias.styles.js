@@ -24,11 +24,17 @@ export const ReferenciasContainer = styled.div`
         font-size: 40px;
     }
 
-    a {
-        color: white;
+    button {
+        color: ${props => props.theme.laranjaAncora};
         text-decoration: none;
-        margin-left: 1rem;
-        font-size: 30px;
+        margin-inline: 8rem;
+        font-size: 25px;
+        background: ${props => props.theme.preto};
+        border: 5px solid ${props => props.theme.laranjaTitulo};
+        padding-inline: 5rem;
+        padding-block: 1rem;
+        border-radius: 5rem;
+        margin-block: 1rem;
     }
     img {
         width: 100%;
