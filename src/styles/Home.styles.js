@@ -8,6 +8,9 @@ export const HomeContainer = styled.div`
     gap: 3rem;
     width: 100%;
     height:75px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
 
     img {
         height: 67.86px;
