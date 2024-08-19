@@ -29,7 +29,10 @@ export const HomeContainer = styled.div`
         text-decoration: none;
     }
 
-    
+    a.ancora:hover{
+            text-decoration: underline;
+            
+        }
 
     button {
         display:none;
@@ -68,5 +71,7 @@ export const HomeContainer = styled.div`
             margin-top:0.75rem;
             
         }
+        
+        
   }
 `
