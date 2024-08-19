@@ -51,7 +51,7 @@ padding-bottom: 2rem;
     h1 {
         margin-block: 5rem;
         text-transform: uppercase;
-        font-size: 40px;
+        font-size: 64px;
         text-align: center;
     }
 
