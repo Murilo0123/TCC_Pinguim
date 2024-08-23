@@ -13,10 +13,10 @@ export const SectionContainer = styled.section`
     max-width: 1140px;
     
 
-    li {
+    p {
         font-size: 30px;
         margin-left: 3rem;
-        padding-right: 4rem;
+        padding-right: 5rem;
     }
 
     img {
@@ -29,10 +29,12 @@ export const SectionContainer = styled.section`
 
         display: block;
         text-align: center;
-        li{
+        max-width: 340px;
+        p {
             font-size: 20px;
-            margin-left: 0;
+            margin-left: 10rem;
             margin-inline: 1rem;
+            padding-right: 0;
         }
         img {
             width: 151px;

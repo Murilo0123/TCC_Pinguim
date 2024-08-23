@@ -72,6 +72,14 @@ export const ReferenciasContainer = styled.div`
         img {
             height: 13rem;   
         }
+
+        button {
+            font-size: 17px;
+            margin-inline: 4rem;
+            padding-inline: 3rem;
+            padding-block: 0.5rem;
+            margin-block: 0rem;
+        }
     }
 `
 
