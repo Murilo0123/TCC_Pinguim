@@ -63,7 +63,7 @@ export function Componentes() {
         </SectionContainer>
         <SectionContainer >
             <img src={Led} alt="" />
-           <p>3x - Led branco</p>
+           <p>3x - Leds branco</p>
         </SectionContainer>
         <SectionContainer >
             <img src={Fio} alt="" />
