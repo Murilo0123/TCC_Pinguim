@@ -14,7 +14,7 @@ export function SobreNos() {
       <ParticipantesContainer>
         <img className="integrantes" src={Fred} alt="" />
         <h2>Fredson Vicente</h2>
-        <p>Responsável pelo site e divulgação</p>
+        <p>Responsável pelo Sensor de Presença e Câmera</p>
         <div>
           <a href="https://www.linkedin.com/in/fredson-vicente/" target="_blank"><img src={Linkedin} alt="" /></a>
           <a href="https://github.com/FredsonV" target="_blank"><img src={GitHub} alt="" /></a>
