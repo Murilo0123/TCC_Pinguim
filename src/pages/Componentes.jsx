@@ -11,8 +11,8 @@ import Board from "../imgs/MiniProtoboard.png"
 import Oled from "../imgs/TelaOled.png"
 import Cano from "../imgs/CanoPVC.png"
 import Servo from "../imgs/ServoMotor.png"
-import Arduino from "../imgs/ArduinoNano.png"
-import Shield from "../imgs/Shield.png"
+import Arduino from "../imgs/Arduino.png"
+import SensorPir from "../imgs/SensorPir.png"
 import Fonte from "../imgs/Fonte.png"
 import Led from "../imgs/Led.png"
 import Luz from "../imgs/Luz.png"
@@ -23,11 +23,11 @@ export function Componentes() {
         <h1>Lista de Materias</h1> 
         <SectionContainer >
             <img src={Arduino} alt="" />
-            <p>1x - Arduino Nano R3</p>
+            <p>1x - Arduino Uno com cabo</p>
         </SectionContainer>
         <SectionContainer >
-            <img src={Shield} alt="" />
-            <p>1x - Shield Expansão De Pinos Para Arduino Nano V3</p>
+            <img src={SensorPir} alt="" />
+            <p>1x - Sensor de Movimento Presença PIR HC-SR501</p>
         </SectionContainer>
         <SectionContainer >
             <img src={Cam} alt="" />
