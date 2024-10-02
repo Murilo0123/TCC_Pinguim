@@ -24,7 +24,7 @@ export const Globalstyle = createGlobalStyle`
         font-family: "Oswald", sans-serif;
     }
 
-    p, a {
+    p, a, li {
         font-family: "Radio Canada Big", sans-serif;
         font-weight: 400;
     }

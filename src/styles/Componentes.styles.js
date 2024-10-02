@@ -5,16 +5,18 @@ export const SectionContainer = styled.section`
     align-items: center;
     background: ${props => props.theme.caixas};
     border-radius: 2rem;
-    margin-inline: 2rem;
+    margin-inline: auto;
     margin-top: 2rem;
     gap: 2rem;
     font-size: 1rem;
     padding-bottom: 2rem;
+    max-width: 1140px;
     
 
-    li {
+    p {
         font-size: 30px;
-        margin-left: 8rem;
+        margin-left: 3rem;
+        padding-right: 5rem;
     }
 
     img {
@@ -27,10 +29,12 @@ export const SectionContainer = styled.section`
 
         display: block;
         text-align: center;
-        li{
+        max-width: 340px;
+        p {
             font-size: 20px;
-            margin-left: 0;
+            margin-left: 10rem;
             margin-inline: 1rem;
+            padding-right: 0;
         }
         img {
             width: 151px;
@@ -51,7 +55,7 @@ padding-bottom: 2rem;
     h1 {
         margin-block: 5rem;
         text-transform: uppercase;
-        font-size: 40px;
+        font-size: 64px;
         text-align: center;
     }
 
