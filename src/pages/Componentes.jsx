@@ -7,15 +7,17 @@ import Buzzer from "../imgs/Buzzer.png"
 import RTC from "../imgs/RealTimeclock.png"
 import Protoboard from "../imgs/Protoboard.png"
 import Cam from "../imgs/ESP32.png"
-import Board from "../imgs/MiniProtoboard.png"
+import Papelao from "../imgs/Papelao.png"
 import Oled from "../imgs/TelaOled.png"
 import Cano from "../imgs/CanoPVC.png"
 import Servo from "../imgs/ServoMotor.png"
-import Arduino from "../imgs/ArduinoNano.png"
-import Shield from "../imgs/Shield.png"
-import Fonte from "../imgs/Fonte.png"
-import Led from "../imgs/Led.png"
-import Luz from "../imgs/Luz.png"
+import Arduino from "../imgs/Arduino.png"
+import SensorPir from "../imgs/SensorPir.png"
+import Bateria9v from "../imgs/Bateria9v.png"
+import Bateria3v from "../imgs/Bateria3v.png"
+import ClipConector from "../imgs/ClipConector.png"
+import Regulador from "../imgs/Regulador.png"
+import Suporte from "../imgs/Suporte.png"
 
 export function Componentes() {
   return (
@@ -23,11 +25,11 @@ export function Componentes() {
         <h1>Lista de Materias</h1> 
         <SectionContainer >
             <img src={Arduino} alt="" />
-            <p>1x - Arduino Nano R3</p>
+            <p>1x - Arduino Uno com cabo</p>
         </SectionContainer>
         <SectionContainer >
-            <img src={Shield} alt="" />
-            <p>1x - Shield Expansão De Pinos Para Arduino Nano V3</p>
+            <img src={SensorPir} alt="" />
+            <p>1x - Sensor de Movimento Presença PIR HC-SR501</p>
         </SectionContainer>
         <SectionContainer >
             <img src={Cam} alt="" />
@@ -36,6 +38,10 @@ export function Componentes() {
         <SectionContainer >
             <img src={Ultra} alt="" />
             <p>1x - Sensor Ultrassonico - HC-SR04 (Genérico)</p>
+        </SectionContainer>
+        <SectionContainer >
+            <img src={Suporte} alt="" />
+            <p>1x - Suporte para Sensor Ultrassônico HC-SR04</p>
         </SectionContainer>
         <SectionContainer >
             <img src={Oled} alt="" />
@@ -58,32 +64,36 @@ export function Componentes() {
            <p>1x - Sensor de Gás MQ-5 GLP (Gás de Cozinha) e Gás Natural</p>
         </SectionContainer>
         <SectionContainer >
-            <img src={Luz} alt="" />
-           <p>1x - Módulo Sensor de Luminosidade Luz LDR</p>
+            <img src={Regulador} alt="" />
+           <p>2x - Módulo Regulador de Tensão LM 2596 Ajustável - 3A</p>
         </SectionContainer>
         <SectionContainer >
-            <img src={Led} alt="" />
-           <p>3x - Leds branco</p>
+            <img src={ClipConector} alt="" />
+           <p>2x - Clip Conector</p>
         </SectionContainer>
         <SectionContainer >
             <img src={Fio} alt="" />
-            <p>?x - Jumper</p>
+            <p>x - Jumper</p>
         </SectionContainer>
         <SectionContainer >
             <img src={Protoboard} alt="" />
             <p>1x - Protoboard</p>
         </SectionContainer>
         <SectionContainer >
-            <img src={Board} alt="" />
-            <p>1x - Mini Protoboard</p>
+            <img src={Papelao} alt="" />
+            <p>1x - Papelão</p>
         </SectionContainer>
         <SectionContainer >
             <img src={Cano} alt="" />
-            <p>?x - Cano PVC</p>
+            <p>3x - Cano PVC</p>
         </SectionContainer>
         <SectionContainer >
-            <img src={Fonte} alt="" />
-            <p>1x - Fonte 12v 1a Bivolt</p>
+            <img src={Bateria9v} alt="" />
+            <p>2x - Bateria 9V - Duracell</p>
+        </SectionContainer>
+        <SectionContainer >
+            <img src={Bateria3v} alt="" />
+            <p>1x - Bateria 3V - Duracell</p>
         </SectionContainer>
     </CompContainer>
   )

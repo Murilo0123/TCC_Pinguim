@@ -8,7 +8,7 @@ export function SobreProduto() {
         
         <section>
             <h1>Sobre o Produto</h1>
-            <p>O Pinguim Vigilante é um robô que garantirá a segurança da vida de um idoso solitário, por meio de sensores de fumaça para previnir possíveis incêndios, e detectar gases tóxicos para o ser humano. Junto de um design agradável e marcante para ser um grande companheiro.</p>
+            <p>O Pinguim Vigilante é um robô que garantirá a segurança da vida de um idoso solitário, por meio de sensores de fumaça para prevenir possíveis incêndios, e detectar gases tóxicos para o ser humano. Equipado com uma câmera, o projeto será capaz de fotografar possíveis invasores. Junto de um design agradável e marcante para ser um grande companheiro.</p>
         </section>
     </ProdutoComponent>
   )
