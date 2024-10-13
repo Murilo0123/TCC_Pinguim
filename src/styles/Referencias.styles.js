@@ -55,11 +55,11 @@ export const ReferenciasContainer = styled.div`
         }
 
         h2 {
-            font-size: 30px;
+            font-size: 27px;
         }
 
         p {
-            font-size: 18px;
+            font-size: 16px;
             height: 480px;
             margin-bottom: -10px;
             
@@ -88,6 +88,10 @@ export const DivContainer = styled.div`
     display: flex;
     justify-content: center;
     gap: 3rem;
+    img {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
 
     @media (max-width: 1140px){
 
@@ -119,4 +123,11 @@ export const PrincipalContainer = styled.div`
     }
 
     
+`
+
+export const TerContainer = styled.div`
+     @media (min-width: 1140px){
+        display: flex;
+        justify-content: center;
+    }
 `
