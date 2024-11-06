@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
 
-import { Home } from './pages/Home'
+import { Home } from './pages/Home.jsx'
 import { theme } from './styles/theme.js'
 import { Globalstyle } from './styles/global.js'
 import { SobreProduto } from './pages/SobreProduto.jsx'
@@ -10,6 +10,9 @@ import { Componentes } from './pages/Componentes.jsx'
 import { Referencias } from './pages/Referencias.jsx'
 import { SobreNos } from './pages/SobreNos.jsx'
 import { MenuHamburger } from './pages/Hamburger.jsx'
+import { Jogo } from './pages/Jogo.jsx'
+
+
 
 
 const router = createBrowserRouter([
@@ -36,6 +39,11 @@ const router = createBrowserRouter([
   {
     path: "/sobrenos",
     element: <SobreNos />
+  },
+
+  {
+    path: "/jogo",
+    element: <Jogo />
   }
 ]);
 

@@ -40,10 +40,6 @@ export function Componentes() {
             <p>1x - Sensor Ultrassonico - HC-SR04 (Genérico)</p>
         </SectionContainer>
         <SectionContainer >
-            <img src={Suporte} alt="" />
-            <p>1x - Suporte para Sensor Ultrassônico HC-SR04</p>
-        </SectionContainer>
-        <SectionContainer >
             <img src={Oled} alt="" />
             <p>1x - OLED Screen 128x64 i2c</p>
         </SectionContainer>
@@ -73,7 +69,7 @@ export function Componentes() {
         </SectionContainer>
         <SectionContainer >
             <img src={Fio} alt="" />
-            <p>x - Jumper</p>
+            <p>50x - Jumper</p>
         </SectionContainer>
         <SectionContainer >
             <img src={Protoboard} alt="" />

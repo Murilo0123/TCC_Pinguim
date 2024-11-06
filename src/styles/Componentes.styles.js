@@ -53,7 +53,7 @@ export const CompContainer = styled.div`
 padding-bottom: 2rem;
 
     h1 {
-        margin-block: 5rem;
+        margin-block: 2rem;
         text-transform: uppercase;
         font-size: 64px;
         text-align: center;

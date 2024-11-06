@@ -14,6 +14,8 @@ export function MenuHamburger() {
 
           <a href="/referencias" className="burger">Referências</a>
 
+          <a href="/jogo" className="burger">Jogo</a>
+
           <a href="/sobrenos" className="burger">Sobre nós</a>
 
         </BgContainer>

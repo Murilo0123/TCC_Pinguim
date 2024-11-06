@@ -12,6 +12,7 @@ export function Home() {
       <a href="/funcionamento" className="ancora">Funcionamento</a>
       <a href="/componentes" className="ancora">Materiais</a>
       <a href="/referencias" className="ancora">Referências</a>
+      <a href="/jogo" className="ancora">Jogo</a>
       <a href="/sobrenos" className="ancora">Sobre nós</a>
       <button><img src={hamburger} alt="" /></button>
     </HomeContainer>
