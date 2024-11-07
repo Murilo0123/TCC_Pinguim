@@ -3,8 +3,9 @@ import styled from "styled-components";
 export const ReferenciasContainer = styled.div`
 
     background: ${props => props.theme.preto};
-    border-radius: 15px;
+    border-radius: 1rem;
     width: 560px;
+    height: 1360px;
     box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.30);
     margin-bottom: 2rem;
     
@@ -13,7 +14,7 @@ export const ReferenciasContainer = styled.div`
         margin-inline: 2rem;
         font-size: 30px;
         height: 684px;
-        margin-bottom: 4rem;
+        margin-bottom: 10rem;
     }
 
     h2 {
@@ -24,7 +25,7 @@ export const ReferenciasContainer = styled.div`
         font-size: 40px;
     }
 
-    button {
+    a {
         color: ${props => props.theme.laranjaAncora};
         text-decoration: none;
         margin-inline: 8rem;
@@ -34,7 +35,7 @@ export const ReferenciasContainer = styled.div`
         padding-inline: 5rem;
         padding-block: 1rem;
         border-radius: 5rem;
-        margin-block: 1rem;
+
     }
     img {
         width: 100%;
@@ -65,15 +66,11 @@ export const ReferenciasContainer = styled.div`
             
         }
 
-        a {
-            font-size: 20px;
-        }
-
         img {
             height: 13rem;   
         }
 
-        button {
+        a {
             font-size: 17px;
             margin-inline: 4rem;
             padding-inline: 3rem;

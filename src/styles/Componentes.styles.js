@@ -63,7 +63,6 @@ padding-bottom: 2rem;
     @media (max-width: 1140px){
         h1{
             font-size:40px ;
-            margin-block:3rem ;
         }
     }
 `

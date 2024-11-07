@@ -36,7 +36,7 @@ export function SobreNos() {
       <ParticipantesContainer>
         <img className="integrantes" src={Rafael} alt="" />
         <h2>Rafael Casemiro</h2>
-        <p>Responsável pelo design do projeto</p>
+        <p>Responsável pelo sensor de gás e design do projeto</p>
         <div>
           <a href="https://www.linkedin.com/in/rafael-dos-santos-borges-casemiro-0b48582ba/" target="_blank"><img src={Linkedin} alt="" /></a> 
           <a href="https://github.com/RafaelCasemiro" target="_blank"><img src={GitHub} alt="" /></a>

@@ -1,11 +1,12 @@
 import styled from "styled-components"
 
-export const ProdutoComponent = styled.div`
+export const ProdutoComponent = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5rem;
     margin-top: 2rem;
+    
 
     p {
         max-width: 50rem;
@@ -25,10 +26,6 @@ export const ProdutoComponent = styled.div`
         padding-bottom: 2rem;
         padding-inline: 2rem;
 
-        img {
-            width: 14.375rem;
-        }
-
         h1 {
             font-size:2.5rem;
         }
@@ -39,3 +36,4 @@ export const ProdutoComponent = styled.div`
     }  
         
 `
+
