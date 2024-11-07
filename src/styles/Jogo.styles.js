@@ -41,12 +41,14 @@ export const BotJogoContainer = styled.section`
         border-radius: 5rem;
 
     }
+    @media (max-width: 1140px){
 
-    button {
+    a {
         font-size: 17px;
         margin-inline: 4rem;
-        padding-inline: 3rem;
-        padding-block: 0.5rem;
+        padding-inline: 1.5rem;
+        padding-block: 0.25rem;
         margin-block: 0rem;
     }
+}
 `

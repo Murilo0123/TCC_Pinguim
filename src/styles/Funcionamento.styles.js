@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const ProdutoComponent = styled.section`
+export const FuncionaComponent = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,8 +30,9 @@ export const ProdutoComponent = styled.section`
             font-size:2.5rem;
         }
 
-        img {
-            width: 14.375rem;
+        iframe {
+            width: 230px;
+            height: 230px;
         }
 
         p {
@@ -40,4 +41,3 @@ export const ProdutoComponent = styled.section`
     }  
         
 `
-

@@ -53,17 +53,20 @@ export const HomeContainer = styled.div`
         > .ancora {
             display:none;
         }; 
+
         img {
             width: 77px;
             height: 44px;
             margin-left:1rem;
         }  
+
         button {
             display:block;
             background:none;
             border:none;
            
         }
+
         button img {
             margin-left:2rem;
             width: 29px;
@@ -71,7 +74,5 @@ export const HomeContainer = styled.div`
             margin-top:0.75rem;
             
         }
-        
-        
   }
 `
